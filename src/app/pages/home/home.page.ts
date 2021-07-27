@@ -29,6 +29,31 @@ export class HomePage  {
       name: 'Avatar',
       redirectTo: '/avatar'
     },
+    {
+      icon: 'radio-button-off',
+      name: 'Button',
+      redirectTo: '/button'
+    },
+    {
+      icon: 'card',
+      name: 'Cards',
+      redirectTo: '/card'
+    },
+    {
+      icon: 'checkmark-circle',
+      name: 'Checks',
+      redirectTo: '/check'
+    },
+    {
+      icon: 'calendar',
+      name: 'DateTime',
+      redirectTo: '/date-time'
+    },
+    {
+      icon: 'car',
+      name: 'Fab',
+      redirectTo: '/fab'
+    },
   ];
 
 }
