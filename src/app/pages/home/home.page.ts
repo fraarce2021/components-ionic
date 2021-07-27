@@ -20,10 +20,15 @@ export class HomePage  {
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'logo-apple-appstore',
+      icon: 'alert-circle',
       name: 'Alert',
       redirectTo: '/alert'
-    }
+    },
+    {
+      icon: 'beaker',
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    },
   ];
 
 }
