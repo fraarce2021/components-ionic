@@ -54,6 +54,36 @@ export class HomePage  {
       name: 'Fab',
       redirectTo: '/fab'
     },
+    {
+      icon: 'grid',
+      name: 'Grid',
+      redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite',
+      name: 'Infinite',
+      redirectTo: '/infinite'
+    },
+    {
+      icon: 'hammer',
+      name: 'Input',
+      redirectTo: '/input'
+    },
+    {
+      icon: 'list',
+      name: 'List - Sliding',
+      redirectTo: '/list'
+    },
+    {
+      icon: 'reorder-three',
+      name: 'List - Reorder',
+      redirectTo: '/list-reorder'
+    },
+    {
+      icon: 'refresh-circle',
+      name: 'Loading',
+      redirectTo: '/loading'
+    },
   ];
 
 }
