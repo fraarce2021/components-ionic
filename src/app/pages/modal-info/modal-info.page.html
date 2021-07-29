@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Moda Info</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-item>
+        <ion-label>{{name}} - {{country}}</ion-label>
+    </ion-item>
+
+    <ion-button (click)="withoutArguments()" expand="block">
+        Without Arguments
+    </ion-button>
+
+    <ion-button (click)="withArguments()" expand="block">
+        With Arguments
+    </ion-button>
+
+</ion-content>
